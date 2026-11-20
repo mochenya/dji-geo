@@ -2,13 +2,19 @@
 
 ## 安装
 
-要求 Python 3.12 或更高版本。在仓库目录中安装：
+要求 Python 3.12 或更高版本。从 PyPI 安装：
 
 ```bash
-python -m pip install .
+pip install dji-geo
 ```
 
-开发环境可使用 `uv sync`。发行包名为 `dji-geo`，导入名为 `dji_geo`。
+或在 uv 项目中添加依赖：
+
+```bash
+uv add dji-geo
+```
+
+发行包名为 `dji-geo`，导入名为 `dji_geo`。源码开发可克隆仓库并在仓库目录执行 `uv sync`。
 
 ## 查询区域
 

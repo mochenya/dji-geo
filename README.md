@@ -20,15 +20,13 @@
 
 ## 安装
 
-需要 Python **3.12 或更高版本**。源码安装：
+需要 Python **3.12 或更高版本**。从 PyPI 安装：
 
 ```bash
-git clone https://github.com/mochenya/dji-geo.git
-cd dji-geo
-python -m pip install .
+pip install dji-geo
 ```
 
-开发环境可使用 `uv sync`。详见[快速开始](docs/usage/quickstart.md)。
+使用 uv 的项目可运行 `uv add dji-geo`。源码开发见[快速开始](docs/usage/quickstart.md)。
 
 ## 简单使用
 
